@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>martin sit — dev portfolio</title>
+  <style>
+    :root{color-scheme:light}
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      background:#ffffff;
+      color:#000000;
+      font-family: ui-sans-serif, system-ui, -apple-system, "segoe ui", roboto, "helvetica neue", arial, sans-serif;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      line-height:1.45;
+      padding:4ch;
+    }
+    main{max-width:64ch;margin:0 auto}
+    h1{font-size:clamp(1.5rem,2.5vw,2.25rem);margin:0 0 1rem 0;font-weight:600}
+    h2{font-size:1rem;margin:2rem 0 .5rem 0;font-weight:600}
+    p,li{font-size:1rem;margin:0 0 .6rem 0}
+    ul{padding-left:1.25rem;margin:0}
+    a{color:inherit;text-decoration:underline}
+    .muted{color:rgba(0,0,0,.65);font-size:.95rem}
+    /* ensure visible text remains lowercase as authored */
+    *{text-transform:none}
+  </style>
+</head>
+<body>
+  <main>
+    <h1>sumair</h1>
+
+    <section id="about">
+      <h2>about</h2>
+      <p>hey i'm sumair sidhu, learning everything i can because the opportunities ahead require a delusional ambition</p>
+    </section>
+
+    <section id="experience">
+      <h2>experience</h2>
+      <ul>
+        
+        <li>engineering @ my desk
+          <br class="muted"><span class="muted">making things that interest me</span>
+        </li>
+        <li>ml research @ google.com
+          <br class="muted"><span class="muted">learning neural nets</span>
+        </li>
+        <li>learning @ youtube/freecodecamp
+          <br class="muted"><span class="muted">getting better at coding</span>
+        </li>
+        <li>swe @ one day
+          <br class="muted"><span class="muted">would love to work at nvidia, notion, google, or build</span>
+        </li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>projects</h2>
+      <ul>
+        <li><strong>soon</strong>
+      </ul>
+
+    </section>
+
+  </main>
+</body>
+</html>
